@@ -17,6 +17,18 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+header{
+    background-image: url(image/film-weathering-with-you.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+ 
+    
+}
+
+.shadow{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
 h1,h2,h3,h4,h5,h6 strong {
     color: var(--primaryTextColor)
 }
@@ -37,6 +49,7 @@ a{
 .main-container {
     width: 1200px;
     margin: 0 auto;
+   
 }
 
 @media screen and (max-width: 1200px) {
